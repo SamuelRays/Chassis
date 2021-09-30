@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="500.0" maxWidth="280.0" minHeight="444.0" minWidth="280.0" prefHeight="444.0" prefWidth="280.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.view.SettingsController">
+   <children>
+      <Label layoutX="50.0" layoutY="29.0" text="Тестируемое устройство" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="30.0" />
+      <ChoiceBox fx:id="deviceType" layoutX="20.0" layoutY="64.0" onMouseDragOver="#setCheckBoxes" prefWidth="150.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="60.0">
+         <items>
+            
+         </items>
+      </ChoiceBox>
+      <CheckBox fx:id="ZIP" layoutX="20.0" layoutY="99.0" mnemonicParsing="false" text="ЗИП" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="100.0" />
+      <CheckBox fx:id="recheck" layoutX="20.0" layoutY="128.0" mnemonicParsing="false" onAction="#setRecheck" text="Перепроверка" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="125.0" />
+      <CheckBox fx:id="protocolOnly" layoutX="20.0" layoutY="200.0" mnemonicParsing="false" onAction="#setProtocolOnly" text="Только создание протокола" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="200.0" />
+      <CheckBox fx:id="SNOnly" layoutX="20.0" layoutY="175.0" mnemonicParsing="false" onAction="#setSNOnly" text="Только запись серийных номеров" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="175.0" />
+      <CheckBox fx:id="noFUN" layoutX="20.0" layoutY="150.0" mnemonicParsing="false" onAction="#setNoFUN" text="Шасси без FUN" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="150.0" />
+      <TextField fx:id="backPlanePN" layoutX="180.0" layoutY="300.0" prefHeight="25.0" prefWidth="80.0" AnchorPane.bottomAnchor="175.0" AnchorPane.rightAnchor="20.0" />
+      <TextField fx:id="FUNPN" layoutX="180.0" layoutY="335.0" prefHeight="25.0" prefWidth="80.0" AnchorPane.bottomAnchor="140.0" AnchorPane.rightAnchor="20.0" />
+      <Label layoutX="20.0" layoutY="303.0" text="Номер платы BackPlane" AnchorPane.bottomAnchor="180.0" AnchorPane.leftAnchor="20.0" />
+      <Label layoutX="20.0" layoutY="338.0" text="Номер платы FUN" AnchorPane.bottomAnchor="145.0" AnchorPane.leftAnchor="20.0" />
+      <Button layoutX="214.0" layoutY="461.0" mnemonicParsing="false" onAction="#checkValid" text="Готово" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="15.0" />
+      <Button layoutX="10.0" layoutY="460.0" mnemonicParsing="false" onAction="#setLastSettings" text="Выставить последние настройки" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="10.0" />
+      <ChoiceBox fx:id="fanModel" layoutX="20.0" layoutY="410.0" prefWidth="150.0" AnchorPane.bottomAnchor="65.0" AnchorPane.leftAnchor="20.0" />
+      <Label layoutX="25.0" layoutY="380.0" text="Модель вентиляторов" AnchorPane.bottomAnchor="103.0" AnchorPane.leftAnchor="25.0" />
+   </children>
+</AnchorPane>

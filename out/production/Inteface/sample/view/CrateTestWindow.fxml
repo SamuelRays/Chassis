@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.view.CrateTestWindowController">
+   <children>
+      <Button fx:id="start" layoutX="20.0" layoutY="10.0" mnemonicParsing="false" onAction="#start" prefWidth="155.0" text="Запустить тест шасси" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="10.0" />
+      <Rectangle fx:id="slot1" arcHeight="5.0" arcWidth="5.0" height="18.0" layoutX="20.0" layoutY="40.0" stroke="BLACK" strokeType="INSIDE" width="235.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="40.0">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="WHITE" />
+                  <Stop color="#a0a0a0" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle fx:id="slot5" arcHeight="5.0" arcWidth="5.0" height="18.0" layoutX="20.0" layoutY="112.0" stroke="BLACK" strokeType="INSIDE" width="235.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="112.0">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="WHITE" />
+                  <Stop color="#a0a0a0" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle fx:id="slot13" arcHeight="5.0" arcWidth="5.0" height="18.0" layoutX="20.0" layoutY="256.0" stroke="BLACK" strokeType="INSIDE" width="235.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="256.0">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="WHITE" />
+                  <Stop color="#a0a0a0" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle fx:id="slot11" arcHeight="5.0" arcWidth="5.0" height="18.0" layoutX="20.0" layoutY="220.0" stroke="BLACK" strokeType="INSIDE" width="235.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="220.0">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="WHITE" />
+                  <Stop color="#a0a0a0" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle fx:id="slot12" arcHeight="5.0" arcWidth="5.0" height="18.0" layoutX="20.0" layoutY="238.0" stroke="BLACK" strokeType="INSIDE" width="235.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="238.0">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="WHITE" />
+                  <Stop color="#a0a0a0" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle fx:id="slot10" arcHeight="5.0" arcWidth="5.0" height="18.0" layoutX="20.0" layoutY="202.0" stroke="BLACK" strokeType="INSIDE" width="235.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="202.0">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="WHITE" />
+                  <Stop color="#a0a0a0" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle fx:id="slot9" arcHeight="5.0" arcWidth="5.0" height="18.0" layoutX="20.0" layoutY="184.0" stroke="BLACK" strokeType="INSIDE" width="235.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="184.0">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="WHITE" />
+                  <Stop color="#a0a0a0" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle fx:id="slot8" arcHeight="5.0" arcWidth="5.0" height="18.0" layoutX="20.0" layoutY="166.0" stroke="BLACK" strokeType="INSIDE" width="235.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="166.0">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="WHITE" />
+                  <Stop color="#a0a0a0" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle fx:id="slot7" arcHeight="5.0" arcWidth="5.0" height="18.0" layoutX="20.0" layoutY="148.0" stroke="BLACK" strokeType="INSIDE" width="235.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="148.0">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="WHITE" />
+                  <Stop color="#a0a0a0" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle fx:id="slot6" arcHeight="5.0" arcWidth="5.0" height="18.0" layoutX="20.0" layoutY="130.0" stroke="BLACK" strokeType="INSIDE" width="235.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="130.0">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="WHITE" />
+                  <Stop color="#a0a0a0" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle fx:id="slot4" arcHeight="5.0" arcWidth="5.0" height="18.0" layoutX="20.0" layoutY="94.0" stroke="BLACK" strokeType="INSIDE" width="235.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="94.0">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="WHITE" />
+                  <Stop color="#a0a0a0" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle fx:id="slot3" arcHeight="5.0" arcWidth="5.0" height="18.0" layoutX="20.0" layoutY="76.0" stroke="BLACK" strokeType="INSIDE" width="235.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="76.0">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="WHITE" />
+                  <Stop color="#a0a0a0" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle fx:id="slot2" arcHeight="5.0" arcWidth="5.0" height="18.0" layoutX="20.0" layoutY="58.0" stroke="BLACK" strokeType="INSIDE" width="235.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="58.0">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="WHITE" />
+                  <Stop color="#a0a0a0" offset="0.9961685823754789" />
+                  <Stop color="#a0a0a0" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Rectangle>
+      <Label fx:id="slot1Label" layoutX="134.0" layoutY="41.0" text="1">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="slot2Label" layoutX="134.0" layoutY="59.0" text="2">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="slot13Label" layoutX="131.0" layoutY="257.0" text="13">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="slot12Label" layoutX="131.0" layoutY="239.0" text="12">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="slot11Label" layoutX="131.0" layoutY="221.0" text="11">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="slot10Label" layoutX="131.0" layoutY="203.0" text="10">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="slot9Label" layoutX="134.0" layoutY="185.0" text="9">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="slot8Label" layoutX="134.0" layoutY="167.0" text="8">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="slot7Label" layoutX="134.0" layoutY="149.0" text="7">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="slot6Label" layoutX="134.0" layoutY="131.0" text="6">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="slot5Label" layoutX="134.0" layoutY="113.0" text="5">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="slot4Label" layoutX="134.0" layoutY="95.0" text="4">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="slot3Label" layoutX="134.0" layoutY="77.0" text="3">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="testDetails" layoutX="20.0" layoutY="315.0" mnemonicParsing="false" onAction="#showTestResults" text="Подробности теста" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="315.0" />
+      <Rectangle fx:id="testResultArea" arcHeight="5.0" arcWidth="5.0" fill="#07ff00" height="25.0" layoutX="20.0" layoutY="286.0" stroke="BLACK" strokeType="INSIDE" width="122.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="286.0" />
+      <Label fx:id="testResult" alignment="CENTER" layoutX="20.0" layoutY="290.0" prefWidth="122.0" text="Тест пройден" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="290.0" />
+      <Rectangle fx:id="slot1Restarter" arcHeight="5.0" arcWidth="5.0" height="18.0" layoutX="255.0" layoutY="40.0" onMouseClicked="#testSlot1" stroke="BLACK" strokeType="INSIDE" width="18.0" AnchorPane.leftAnchor="255.0" AnchorPane.topAnchor="40.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="LIME" />
+                  <Stop color="BLUE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle fx:id="slot2Restarter" arcHeight="5.0" arcWidth="5.0" height="18.0" layoutX="255.0" layoutY="58.0" onMouseClicked="#testSlot2" stroke="BLACK" strokeType="INSIDE" width="18.0" AnchorPane.leftAnchor="255.0" AnchorPane.topAnchor="58.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="LIME" />
+                  <Stop color="BLUE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle fx:id="slot3Restarter" arcHeight="5.0" arcWidth="5.0" height="18.0" layoutX="255.0" layoutY="76.0" onMouseClicked="#testSlot3" stroke="BLACK" strokeType="INSIDE" width="18.0" AnchorPane.leftAnchor="255.0" AnchorPane.topAnchor="76.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="LIME" />
+                  <Stop color="BLUE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle fx:id="slot4Restarter" arcHeight="5.0" arcWidth="5.0" height="18.0" layoutX="255.0" layoutY="94.0" onMouseClicked="#testSlot4" stroke="BLACK" strokeType="INSIDE" width="18.0" AnchorPane.leftAnchor="255.0" AnchorPane.topAnchor="94.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="LIME" />
+                  <Stop color="BLUE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle fx:id="slot5Restarter" arcHeight="5.0" arcWidth="5.0" height="18.0" layoutX="255.0" layoutY="112.0" onMouseClicked="#testSlot5" stroke="BLACK" strokeType="INSIDE" width="18.0" AnchorPane.leftAnchor="255.0" AnchorPane.topAnchor="112.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="LIME" />
+                  <Stop color="BLUE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle fx:id="slot6Restarter" arcHeight="5.0" arcWidth="5.0" height="18.0" layoutX="255.0" layoutY="130.0" onMouseClicked="#testSlot6" stroke="BLACK" strokeType="INSIDE" width="18.0" AnchorPane.leftAnchor="255.0" AnchorPane.topAnchor="130.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="LIME" />
+                  <Stop color="BLUE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle fx:id="slot7Restarter" arcHeight="5.0" arcWidth="5.0" height="18.0" layoutX="255.0" layoutY="148.0" onMouseClicked="#testSlot7" stroke="BLACK" strokeType="INSIDE" width="18.0" AnchorPane.leftAnchor="255.0" AnchorPane.topAnchor="148.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="LIME" />
+                  <Stop color="BLUE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle fx:id="slot8Restarter" arcHeight="5.0" arcWidth="5.0" height="18.0" layoutX="255.0" layoutY="166.0" onMouseClicked="#testSlot8" stroke="BLACK" strokeType="INSIDE" width="18.0" AnchorPane.leftAnchor="255.0" AnchorPane.topAnchor="166.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="LIME" />
+                  <Stop color="BLUE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle fx:id="slot9Restarter" arcHeight="5.0" arcWidth="5.0" height="18.0" layoutX="255.0" layoutY="184.0" onMouseClicked="#testSlot9" stroke="BLACK" strokeType="INSIDE" width="18.0" AnchorPane.leftAnchor="255.0" AnchorPane.topAnchor="184.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="LIME" />
+                  <Stop color="BLUE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle fx:id="slot10Restarter" arcHeight="5.0" arcWidth="5.0" height="18.0" layoutX="255.0" layoutY="202.0" onMouseClicked="#testSlot10" stroke="BLACK" strokeType="INSIDE" width="18.0" AnchorPane.leftAnchor="255.0" AnchorPane.topAnchor="202.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="LIME" />
+                  <Stop color="BLUE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle fx:id="slot11Restarter" arcHeight="5.0" arcWidth="5.0" height="18.0" layoutX="255.0" layoutY="220.0" onMouseClicked="#testSlot11" stroke="BLACK" strokeType="INSIDE" width="18.0" AnchorPane.leftAnchor="255.0" AnchorPane.topAnchor="220.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="LIME" />
+                  <Stop color="BLUE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle fx:id="slot12Restarter" arcHeight="5.0" arcWidth="5.0" height="18.0" layoutX="255.0" layoutY="238.0" onMouseClicked="#testSlot12" stroke="BLACK" strokeType="INSIDE" width="18.0" AnchorPane.leftAnchor="255.0" AnchorPane.topAnchor="238.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="LIME" />
+                  <Stop color="BLUE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle fx:id="slot13Restarter" arcHeight="5.0" arcWidth="5.0" height="18.0" layoutX="255.0" layoutY="256.0" onMouseClicked="#testSlot13" stroke="BLACK" strokeType="INSIDE" width="18.0" AnchorPane.leftAnchor="255.0" AnchorPane.topAnchor="256.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="LIME" />
+                  <Stop color="BLUE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle fx:id="slot1Terminator" arcHeight="5.0" arcWidth="5.0" height="18.0" layoutX="255.0" layoutY="40.0" onMouseClicked="#terminateSlot1" stroke="BLACK" strokeType="INSIDE" width="18.0" AnchorPane.leftAnchor="255.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="RED" />
+                  <Stop color="YELLOW" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle fx:id="slot2Terminator" arcHeight="5.0" arcWidth="5.0" height="18.0" layoutX="255.0" layoutY="58.0" onMouseClicked="#terminateSlot2" stroke="BLACK" strokeType="INSIDE" width="18.0" AnchorPane.leftAnchor="255.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="RED" />
+                  <Stop color="YELLOW" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle fx:id="slot3Terminator" arcHeight="5.0" arcWidth="5.0" height="18.0" layoutX="255.0" layoutY="76.0" onMouseClicked="#terminateSlot3" stroke="BLACK" strokeType="INSIDE" width="18.0" AnchorPane.leftAnchor="255.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="RED" />
+                  <Stop color="YELLOW" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle fx:id="slot4Terminator" arcHeight="5.0" arcWidth="5.0" height="18.0" layoutX="255.0" layoutY="94.0" onMouseClicked="#terminateSlot4" stroke="BLACK" strokeType="INSIDE" width="18.0" AnchorPane.leftAnchor="255.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="RED" />
+                  <Stop color="YELLOW" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle fx:id="slot5Terminator" arcHeight="5.0" arcWidth="5.0" height="18.0" layoutX="255.0" layoutY="112.0" onMouseClicked="#terminateSlot5" stroke="BLACK" strokeType="INSIDE" width="18.0" AnchorPane.leftAnchor="255.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="RED" />
+                  <Stop color="YELLOW" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle fx:id="slot6Terminator" arcHeight="5.0" arcWidth="5.0" height="18.0" layoutX="255.0" layoutY="130.0" onMouseClicked="#terminateSlot6" stroke="BLACK" strokeType="INSIDE" width="18.0" AnchorPane.leftAnchor="255.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="RED" />
+                  <Stop color="YELLOW" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle fx:id="slot7Terminator" arcHeight="5.0" arcWidth="5.0" height="18.0" layoutX="255.0" layoutY="148.0" onMouseClicked="#terminateSlot7" stroke="BLACK" strokeType="INSIDE" width="18.0" AnchorPane.leftAnchor="255.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="RED" />
+                  <Stop color="YELLOW" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle fx:id="slot8Terminator" arcHeight="5.0" arcWidth="5.0" height="18.0" layoutX="255.0" layoutY="166.0" onMouseClicked="#terminateSlot8" stroke="BLACK" strokeType="INSIDE" width="18.0" AnchorPane.leftAnchor="255.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="RED" />
+                  <Stop color="YELLOW" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle fx:id="slot9Terminator" arcHeight="5.0" arcWidth="5.0" height="18.0" layoutX="255.0" layoutY="184.0" onMouseClicked="#terminateSlot9" stroke="BLACK" strokeType="INSIDE" width="18.0" AnchorPane.leftAnchor="255.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="RED" />
+                  <Stop color="YELLOW" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle fx:id="slot10Terminator" arcHeight="5.0" arcWidth="5.0" height="18.0" layoutX="255.0" layoutY="202.0" onMouseClicked="#terminateSlot10" stroke="BLACK" strokeType="INSIDE" width="18.0" AnchorPane.leftAnchor="255.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="RED" />
+                  <Stop color="YELLOW" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle fx:id="slot11Terminator" arcHeight="5.0" arcWidth="5.0" height="18.0" layoutX="255.0" layoutY="220.0" onMouseClicked="#terminateSlot11" stroke="BLACK" strokeType="INSIDE" width="18.0" AnchorPane.leftAnchor="255.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="RED" />
+                  <Stop color="YELLOW" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle fx:id="slot12Terminator" arcHeight="5.0" arcWidth="5.0" height="18.0" layoutX="255.0" layoutY="238.0" onMouseClicked="#terminateSlot12" stroke="BLACK" strokeType="INSIDE" width="18.0" AnchorPane.leftAnchor="255.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="RED" />
+                  <Stop color="YELLOW" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle fx:id="slot13Terminator" arcHeight="5.0" arcWidth="5.0" height="18.0" layoutX="255.0" layoutY="256.0" onMouseClicked="#terminateSlot13" stroke="BLACK" strokeType="INSIDE" width="18.0" AnchorPane.leftAnchor="255.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="RED" />
+                  <Stop color="YELLOW" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Button fx:id="end" layoutX="228.0" layoutY="324.0" mnemonicParsing="false" onAction="#end" prefWidth="122.0" text="Готово" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="315.0" />
+   </children>
+</AnchorPane>
